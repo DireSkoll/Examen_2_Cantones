@@ -5,9 +5,14 @@
  */
 package GUI;
 
+import static aplicacion.Aplicacion.controladorPrincipal;
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
 /**
  *
- * @author manue
+ * @author Manuel Arias & Justin Bogantes
  */
 public class CostaRica extends javax.swing.JFrame {
 
@@ -27,21 +32,143 @@ public class CostaRica extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        botonGuanacaste = new javax.swing.JButton();
+        botonAlajuela = new javax.swing.JButton();
+        botonHeredia = new javax.swing.JButton();
+        botonCartago = new javax.swing.JButton();
+        botonLimon = new javax.swing.JButton();
+        botonPuntarenas = new javax.swing.JButton();
+        botonSanJose = new javax.swing.JButton();
+        fondoMapa = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(900, 855));
+        setResizable(false);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        botonGuanacaste.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonGuanacaste.setBorderPainted(false);
+        botonGuanacaste.setContentAreaFilled(false);
+        botonGuanacaste.setFocusPainted(false);
+        botonGuanacaste.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonGuanacasteActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonGuanacaste, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 80, 120));
+
+        botonAlajuela.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonAlajuela.setBorderPainted(false);
+        botonAlajuela.setContentAreaFilled(false);
+        botonAlajuela.setFocusPainted(false);
+        botonAlajuela.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAlajuelaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonAlajuela, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 117, 90, 120));
+
+        botonHeredia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonHeredia.setBorderPainted(false);
+        botonHeredia.setContentAreaFilled(false);
+        botonHeredia.setFocusPainted(false);
+        botonHeredia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonHerediaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonHeredia, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 140, 80, 120));
+
+        botonCartago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonCartago.setBorderPainted(false);
+        botonCartago.setContentAreaFilled(false);
+        botonCartago.setFocusPainted(false);
+        botonCartago.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonCartagoActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonCartago, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 310, 80, 120));
+
+        botonLimon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonLimon.setBorderPainted(false);
+        botonLimon.setContentAreaFilled(false);
+        botonLimon.setFocusPainted(false);
+        botonLimon.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonLimonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonLimon, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 350, 80, 120));
+
+        botonPuntarenas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonPuntarenas.setBorderPainted(false);
+        botonPuntarenas.setContentAreaFilled(false);
+        botonPuntarenas.setFocusPainted(false);
+        botonPuntarenas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonPuntarenasActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonPuntarenas, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 520, 90, -1));
+
+        botonSanJose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/locationProvinces.png"))); // NOI18N
+        botonSanJose.setBorderPainted(false);
+        botonSanJose.setContentAreaFilled(false);
+        botonSanJose.setFocusPainted(false);
+        botonSanJose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonSanJoseActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonSanJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 290, 80, 120));
+
+        fondoMapa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/mapa-CR.png"))); // NOI18N
+        jPanel1.add(fondoMapa, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void botonCartagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCartagoActionPerformed
+        controladorPrincipal.mostrarCartago();
+    }//GEN-LAST:event_botonCartagoActionPerformed
+
+    private void botonHerediaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonHerediaActionPerformed
+        controladorPrincipal.mostrarHeredia();
+    }//GEN-LAST:event_botonHerediaActionPerformed
+
+    private void botonPuntarenasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPuntarenasActionPerformed
+        controladorPrincipal.mostrarPuntarenas();
+    }//GEN-LAST:event_botonPuntarenasActionPerformed
+
+    private void botonGuanacasteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonGuanacasteActionPerformed
+        controladorPrincipal.mostrarGuanacaste();
+    }//GEN-LAST:event_botonGuanacasteActionPerformed
+
+    private void botonAlajuelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAlajuelaActionPerformed
+        controladorPrincipal.mostrarAlajuela();
+    }//GEN-LAST:event_botonAlajuelaActionPerformed
+
+    private void botonSanJoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSanJoseActionPerformed
+        controladorPrincipal.mostrarSanJose();
+    }//GEN-LAST:event_botonSanJoseActionPerformed
+
+    private void botonLimonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonLimonActionPerformed
+        controladorPrincipal.mostrarLimon();
+    }//GEN-LAST:event_botonLimonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -77,7 +204,22 @@ public class CostaRica extends javax.swing.JFrame {
             }
         });
     }
+    
+    public void cargarVentana(){
+        ImageIcon imagen = new ImageIcon("src/Multimedia/mapa-CR.png");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(fondoMapa.getWidth(), fondoMapa.getHeight(), Image.SCALE_DEFAULT));
+        fondoMapa.setIcon(icono);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonAlajuela;
+    private javax.swing.JButton botonCartago;
+    private javax.swing.JButton botonGuanacaste;
+    private javax.swing.JButton botonHeredia;
+    private javax.swing.JButton botonLimon;
+    private javax.swing.JButton botonPuntarenas;
+    private javax.swing.JButton botonSanJose;
+    private javax.swing.JLabel fondoMapa;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
