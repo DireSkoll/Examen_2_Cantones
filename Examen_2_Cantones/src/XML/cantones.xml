@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<cantones>
+
+  <canton>
+    <nombre>La Cruz</nombre>
+    <codigo>510</codigo>
+    <poblacion>24.083</poblacion>
+    <tasaAlfabetizacion>94.0</tasaAlfabetizacion>
+    <consumoElectrico>399.2</consumoElectrico>
+    <tasaMatriculaPrimaria>86.2</tasaMatriculaPrimaria>
+    <tasaMatriculaSecundaria>79.9</tasaMatriculaSecundaria>
+    <tasaMatriculaSuperior>81.4</tasaMatriculaSuperior>
+    <territorio>1383.9</territorio>
+  </canton>
+
+  <canton>
+    <nombre></nombre>
+    <codigo></codigo>
+    <poblacion></poblacion>
+    <tasaAlfabetizacion></tasaAlfabetizacion>
+    <consumoElectrico></consumoElectrico>
+    <tasaMatriculaPrimaria></tasaMatriculaPrimaria>
+    <tasaMatriculaSecundaria></tasaMatriculaSecundaria>
+    <tasaMatriculaSuperior></tasaMatriculaSuperior>
+    <territorio></territorio>
+  </canton>
+
+</cantones>

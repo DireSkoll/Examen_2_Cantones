@@ -5,6 +5,10 @@
  */
 package GUI;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Manuel Arias & Justin Bogantes
@@ -29,11 +33,191 @@ public class SanJose extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        cantonPerezZeledon = new javax.swing.JButton();
+        cantonDota = new javax.swing.JButton();
+        cantonTarrazu = new javax.swing.JButton();
+        cantonLeonCortes = new javax.swing.JButton();
+        cantonAserri = new javax.swing.JButton();
+        cantonAcosta = new javax.swing.JButton();
+        cantonPuriscal = new javax.swing.JButton();
+        cantonTurrubares = new javax.swing.JButton();
+        cantonMora = new javax.swing.JButton();
+        cantonSantaAna = new javax.swing.JButton();
+        cantonDesamparados = new javax.swing.JButton();
+        cantonEscazu = new javax.swing.JButton();
+        cantonAlajuelita = new javax.swing.JButton();
+        cantonSanJose = new javax.swing.JButton();
+        cantonCoronado = new javax.swing.JButton();
+        cantonMoravia = new javax.swing.JButton();
+        cantonGoicoechea = new javax.swing.JButton();
+        cantonTibas = new javax.swing.JButton();
+        cantonMontesDeOca = new javax.swing.JButton();
+        cantonCurridabat = new javax.swing.JButton();
         fondoSanJose = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        cantonPerezZeledon.setText("119");
+        cantonPerezZeledon.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonPerezZeledonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonPerezZeledon, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 550, -1, -1));
+
+        cantonDota.setText("117");
+        cantonDota.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonDotaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonDota, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 420, -1, -1));
+
+        cantonTarrazu.setText("105");
+        cantonTarrazu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonTarrazuActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonTarrazu, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 420, -1, -1));
+
+        cantonLeonCortes.setText("120");
+        cantonLeonCortes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonLeonCortesActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonLeonCortes, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, -1, -1));
+
+        cantonAserri.setText("106");
+        cantonAserri.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonAserriActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonAserri, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 380, -1, -1));
+
+        cantonAcosta.setText("112");
+        cantonAcosta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonAcostaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonAcosta, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 340, -1, -1));
+
+        cantonPuriscal.setText("104");
+        cantonPuriscal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonPuriscalActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonPuriscal, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 340, -1, -1));
+
+        cantonTurrubares.setText("116");
+        cantonTurrubares.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonTurrubaresActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonTurrubares, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, -1, -1));
+
+        cantonMora.setText("107");
+        cantonMora.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonMoraActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonMora, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, -1, -1));
+
+        cantonSantaAna.setText("109");
+        cantonSantaAna.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSantaAnaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSantaAna, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, -1, -1));
+
+        cantonDesamparados.setText("103");
+        cantonDesamparados.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonDesamparadosActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonDesamparados, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 280, -1, -1));
+
+        cantonEscazu.setText("102");
+        cantonEscazu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonEscazuActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonEscazu, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 210, -1, -1));
+
+        cantonAlajuelita.setText("110");
+        cantonAlajuelita.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonAlajuelitaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonAlajuelita, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 240, -1, -1));
+
+        cantonSanJose.setText("101");
+        cantonSanJose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSanJoseActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSanJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 180, 20, -1));
+
+        cantonCoronado.setText("111");
+        cantonCoronado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonCoronadoActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonCoronado, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 130, -1, -1));
+
+        cantonMoravia.setText("114");
+        cantonMoravia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonMoraviaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonMoravia, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
+
+        cantonGoicoechea.setText("108");
+        cantonGoicoechea.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonGoicoecheaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonGoicoechea, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 180, -1, -1));
+
+        cantonTibas.setText("113");
+        cantonTibas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonTibasActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonTibas, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 160, -1, -1));
+
+        cantonMontesDeOca.setText("115");
+        cantonMontesDeOca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonMontesDeOcaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonMontesDeOca, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 30, 10));
+
+        cantonCurridabat.setText("118");
+        cantonCurridabat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonCurridabatActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonCurridabat, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 210, -1, -1));
 
         fondoSanJose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/mapa-CR-san-jose.png"))); // NOI18N
         jPanel1.add(fondoSanJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -51,6 +235,366 @@ public class SanJose extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void cantonMoraviaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonMoraviaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Moravia");
+        ui.getLblCodigo().setText("114");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/114.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonMoraviaActionPerformed
+
+    private void cantonCoronadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonCoronadoActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Coronado");
+        ui.getLblCodigo().setText("111");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/111.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonCoronadoActionPerformed
+
+    private void cantonTibasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonTibasActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Tibas");
+        ui.getLblCodigo().setText("113");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/113.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonTibasActionPerformed
+
+    private void cantonGoicoecheaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonGoicoecheaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Goicoechea");
+        ui.getLblCodigo().setText("108");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/108.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonGoicoecheaActionPerformed
+
+    private void cantonSanJoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSanJoseActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("San Jose");
+        ui.getLblCodigo().setText("101");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/101.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSanJoseActionPerformed
+
+    private void cantonMontesDeOcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonMontesDeOcaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Montes de Oca");
+        ui.getLblCodigo().setText("115");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/115.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonMontesDeOcaActionPerformed
+
+    private void cantonCurridabatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonCurridabatActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Curridabat");
+        ui.getLblCodigo().setText("118");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/118.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonCurridabatActionPerformed
+
+    private void cantonSantaAnaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSantaAnaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Santa Ana");
+        ui.getLblCodigo().setText("109");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/109.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSantaAnaActionPerformed
+
+    private void cantonEscazuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonEscazuActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Escazu");
+        ui.getLblCodigo().setText("102");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/102.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonEscazuActionPerformed
+
+    private void cantonAlajuelitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonAlajuelitaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Alajuelita");
+        ui.getLblCodigo().setText("110");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/110.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonAlajuelitaActionPerformed
+
+    private void cantonDesamparadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonDesamparadosActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Desamparados");
+        ui.getLblCodigo().setText("103");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/103.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonDesamparadosActionPerformed
+
+    private void cantonMoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonMoraActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Mora");
+        ui.getLblCodigo().setText("107");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/107.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonMoraActionPerformed
+
+    private void cantonTurrubaresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonTurrubaresActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Turrubares");
+        ui.getLblCodigo().setText("116");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/116.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonTurrubaresActionPerformed
+
+    private void cantonPuriscalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonPuriscalActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Puriscal");
+        ui.getLblCodigo().setText("104");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/104.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonPuriscalActionPerformed
+
+    private void cantonAcostaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonAcostaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Acosta");
+        ui.getLblCodigo().setText("112");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/112.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonAcostaActionPerformed
+
+    private void cantonAserriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonAserriActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Aserri");
+        ui.getLblCodigo().setText("106");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/106.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonAserriActionPerformed
+
+    private void cantonLeonCortesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonLeonCortesActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Leon Cortes");
+        ui.getLblCodigo().setText("120");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/120.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonLeonCortesActionPerformed
+
+    private void cantonTarrazuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonTarrazuActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Tarrazu");
+        ui.getLblCodigo().setText("105");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/105.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonTarrazuActionPerformed
+
+    private void cantonDotaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonDotaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Dota");
+        ui.getLblCodigo().setText("117");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/117.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonDotaActionPerformed
+
+    private void cantonPerezZeledonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonPerezZeledonActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Perez Zeledon");
+        ui.getLblCodigo().setText("119");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/119.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonPerezZeledonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -88,6 +632,26 @@ public class SanJose extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton cantonAcosta;
+    private javax.swing.JButton cantonAlajuelita;
+    private javax.swing.JButton cantonAserri;
+    private javax.swing.JButton cantonCoronado;
+    private javax.swing.JButton cantonCurridabat;
+    private javax.swing.JButton cantonDesamparados;
+    private javax.swing.JButton cantonDota;
+    private javax.swing.JButton cantonEscazu;
+    private javax.swing.JButton cantonGoicoechea;
+    private javax.swing.JButton cantonLeonCortes;
+    private javax.swing.JButton cantonMontesDeOca;
+    private javax.swing.JButton cantonMora;
+    private javax.swing.JButton cantonMoravia;
+    private javax.swing.JButton cantonPerezZeledon;
+    private javax.swing.JButton cantonPuriscal;
+    private javax.swing.JButton cantonSanJose;
+    private javax.swing.JButton cantonSantaAna;
+    private javax.swing.JButton cantonTarrazu;
+    private javax.swing.JButton cantonTibas;
+    private javax.swing.JButton cantonTurrubares;
     private javax.swing.JLabel fondoSanJose;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

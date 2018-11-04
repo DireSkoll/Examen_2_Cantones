@@ -5,6 +5,10 @@
  */
 package GUI;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Manuel Arias & Justin Bogantes
@@ -29,11 +33,101 @@ public class Heredia extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        cantonSarapiqui = new javax.swing.JButton();
+        cantonHeredia = new javax.swing.JButton();
+        cantonSantaBarbara = new javax.swing.JButton();
+        cantonBarva = new javax.swing.JButton();
+        cantonSanRafael = new javax.swing.JButton();
+        cantonSanIsidro = new javax.swing.JButton();
+        cantonFlores = new javax.swing.JButton();
+        cantonBelen = new javax.swing.JButton();
+        cantonSanPablo = new javax.swing.JButton();
+        cantonSantoDomingo = new javax.swing.JButton();
         fondoHeredia = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        cantonSarapiqui.setText("410");
+        cantonSarapiqui.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSarapiquiActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSarapiqui, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 280, -1, -1));
+
+        cantonHeredia.setText("401");
+        cantonHeredia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonHerediaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonHeredia, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 580, -1, -1));
+
+        cantonSantaBarbara.setText("404");
+        cantonSantaBarbara.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSantaBarbaraActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSantaBarbara, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 660, -1, -1));
+
+        cantonBarva.setText("402");
+        cantonBarva.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonBarvaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonBarva, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 640, -1, -1));
+
+        cantonSanRafael.setText("405");
+        cantonSanRafael.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSanRafaelActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSanRafael, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 690, -1, -1));
+
+        cantonSanIsidro.setText("406");
+        cantonSanIsidro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSanIsidroActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSanIsidro, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 700, -1, -1));
+
+        cantonFlores.setText("408");
+        cantonFlores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonFloresActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonFlores, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 720, -1, -1));
+
+        cantonBelen.setText("407");
+        cantonBelen.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonBelenActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonBelen, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 750, -1, -1));
+
+        cantonSanPablo.setText("409");
+        cantonSanPablo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSanPabloActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSanPablo, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 730, -1, -1));
+
+        cantonSantoDomingo.setText("403");
+        cantonSantoDomingo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSantoDomingoActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSantoDomingo, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 760, -1, -1));
 
         fondoHeredia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/mapa-CR-heredia.png"))); // NOI18N
         jPanel1.add(fondoHeredia, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -51,6 +145,186 @@ public class Heredia extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void cantonSarapiquiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSarapiquiActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Sarapiqui");
+        ui.getLblCodigo().setText("410");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/410.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSarapiquiActionPerformed
+
+    private void cantonHerediaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonHerediaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Heredia");
+        ui.getLblCodigo().setText("401");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/401.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonHerediaActionPerformed
+
+    private void cantonBarvaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonBarvaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Barva");
+        ui.getLblCodigo().setText("402");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/402.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonBarvaActionPerformed
+
+    private void cantonSantaBarbaraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSantaBarbaraActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Santa Barbara");
+        ui.getLblCodigo().setText("404");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/404.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSantaBarbaraActionPerformed
+
+    private void cantonSanRafaelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSanRafaelActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("San Rafael");
+        ui.getLblCodigo().setText("405");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/405.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSanRafaelActionPerformed
+
+    private void cantonSanIsidroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSanIsidroActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("San Isidro");
+        ui.getLblCodigo().setText("406");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/406.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSanIsidroActionPerformed
+
+    private void cantonFloresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonFloresActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Flores");
+        ui.getLblCodigo().setText("408");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/408.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonFloresActionPerformed
+
+    private void cantonSanPabloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSanPabloActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("San Pablo");
+        ui.getLblCodigo().setText("409");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/409.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSanPabloActionPerformed
+
+    private void cantonBelenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonBelenActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Belen");
+        ui.getLblCodigo().setText("407");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/407.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonBelenActionPerformed
+
+    private void cantonSantoDomingoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSantoDomingoActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Santo Domingo");
+        ui.getLblCodigo().setText("403");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/403.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSantoDomingoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -88,6 +362,16 @@ public class Heredia extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton cantonBarva;
+    private javax.swing.JButton cantonBelen;
+    private javax.swing.JButton cantonFlores;
+    private javax.swing.JButton cantonHeredia;
+    private javax.swing.JButton cantonSanIsidro;
+    private javax.swing.JButton cantonSanPablo;
+    private javax.swing.JButton cantonSanRafael;
+    private javax.swing.JButton cantonSantaBarbara;
+    private javax.swing.JButton cantonSantoDomingo;
+    private javax.swing.JButton cantonSarapiqui;
     private javax.swing.JLabel fondoHeredia;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

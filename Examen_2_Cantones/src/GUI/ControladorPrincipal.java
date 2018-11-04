@@ -1,6 +1,15 @@
 
 package GUI;
 
+
+import Datos.Canton;
+import Datos.ListaCantones;
+import java.io.File;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+
+
 /**
  *
  * @author Manuel Arias & Justin Bogantes
@@ -15,9 +24,37 @@ public class ControladorPrincipal {
     SanJose sanJose;
     Heredia heredia;
     Alajuela alajuela;
+    private ListaCantones miListaCantones;
+    private CantonUI miVentana;
     
     public ControladorPrincipal(){
         
+    }
+    
+    public void leerXML(String URL) {
+        try {
+            //--------Crea el contexto JAXB--------//
+            JAXBContext ctx = JAXBContext.newInstance(ListaCantones.class);
+            //--------Crea la clase que permite leer archivo XML
+            Unmarshaller ums = ctx.createUnmarshaller();
+
+            miListaCantones = (ListaCantones) ums.unmarshal(new File(URL)); //error
+
+        } catch (JAXBException ex) {
+            System.out.println(ex.toString());
+        }
+
+    }
+    
+    public void mostrarCantonUI(){
+        CantonUI ui = new CantonUI();
+        ui.setVisible(true);
+    }
+    
+    public void mostrarCanton(int codigo){
+        Canton temporal;
+        temporal = miListaCantones.MostrarCanton(codigo);
+        miVentana.mostrarCanton(temporal);
     }
     
     public void mostrarCostaRica(){
@@ -59,4 +96,5 @@ public class ControladorPrincipal {
         sanJose = new SanJose();
         sanJose.setVisible(true);
     }
+    
 }

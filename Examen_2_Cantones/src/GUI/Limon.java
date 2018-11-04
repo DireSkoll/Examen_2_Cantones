@@ -5,6 +5,10 @@
  */
 package GUI;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Manuel Arias & Justin Bogantes
@@ -29,11 +33,65 @@ public class Limon extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        cantonPococi = new javax.swing.JButton();
+        cantonGuacimo = new javax.swing.JButton();
+        cantonSiquirres = new javax.swing.JButton();
+        cantonMatina = new javax.swing.JButton();
+        cantonLimon = new javax.swing.JButton();
+        cantonTalamanca = new javax.swing.JButton();
         fondoLimon = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        cantonPococi.setText("702");
+        cantonPococi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonPocociActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonPococi, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, -1, -1));
+
+        cantonGuacimo.setText("706");
+        cantonGuacimo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonGuacimoActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonGuacimo, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 310, -1, -1));
+
+        cantonSiquirres.setText("703");
+        cantonSiquirres.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonSiquirresActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonSiquirres, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, -1, -1));
+
+        cantonMatina.setText("705");
+        cantonMatina.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonMatinaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonMatina, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 370, -1, -1));
+
+        cantonLimon.setText("701");
+        cantonLimon.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonLimonActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonLimon, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 470, -1, -1));
+
+        cantonTalamanca.setText("704");
+        cantonTalamanca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cantonTalamancaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(cantonTalamanca, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 610, -1, -1));
 
         fondoLimon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/mapa-CR-limon.png"))); // NOI18N
         jPanel1.add(fondoLimon, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -51,6 +109,114 @@ public class Limon extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void cantonPocociActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonPocociActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Pococi");
+        ui.getLblCodigo().setText("702");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/702.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonPocociActionPerformed
+
+    private void cantonGuacimoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonGuacimoActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Guacimo");
+        ui.getLblCodigo().setText("706");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/706.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonGuacimoActionPerformed
+
+    private void cantonSiquirresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSiquirresActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Siquirres");
+        ui.getLblCodigo().setText("703");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/703.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonSiquirresActionPerformed
+
+    private void cantonMatinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonMatinaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Matina");
+        ui.getLblCodigo().setText("705");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/705.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonMatinaActionPerformed
+
+    private void cantonLimonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonLimonActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Limon");
+        ui.getLblCodigo().setText("701");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/701.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonLimonActionPerformed
+
+    private void cantonTalamancaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonTalamancaActionPerformed
+        CantonUI ui = new CantonUI();
+        ui.getlblNombre().setText("Talamanca");
+        ui.getLblCodigo().setText("704");
+        ui.getLblPoblacion().setText("" + " personas");
+        ui.getLblAlfabetizacion().setText("" + "%");
+        ui.getLblConsumoElectrico().setText("" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("" + "%");
+        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.setVisible(true);
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/704.jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(ui.getlblFoto().getWidth(), ui.getlblFoto().getHeight(), Image.SCALE_DEFAULT));
+        ui.getlblFoto().setIcon(icono);
+    }//GEN-LAST:event_cantonTalamancaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -88,6 +254,12 @@ public class Limon extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton cantonGuacimo;
+    private javax.swing.JButton cantonLimon;
+    private javax.swing.JButton cantonMatina;
+    private javax.swing.JButton cantonPococi;
+    private javax.swing.JButton cantonSiquirres;
+    private javax.swing.JButton cantonTalamanca;
     private javax.swing.JLabel fondoLimon;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
