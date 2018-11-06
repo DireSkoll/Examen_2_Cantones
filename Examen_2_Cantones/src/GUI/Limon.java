@@ -114,13 +114,13 @@ public class Limon extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Pococi");
         ui.getLblCodigo().setText("702");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblPoblacion().setText("137.809" + " personas");
+        ui.getLblAlfabetizacion().setText("96,4" + "%");
+        ui.getLblConsumoElectrico().setText("545,5" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
+        ui.getLblMatriculaSecundaria().setText("89,9" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("2403.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/702.jpg");
@@ -132,13 +132,13 @@ public class Limon extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Guacimo");
         ui.getLblCodigo().setText("706");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblPoblacion().setText("49.373" + " personas");
+        ui.getLblAlfabetizacion().setText("96.7" + "%");
+        ui.getLblConsumoElectrico().setText("498.0" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("95.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("64.2" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("576,5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/706.jpg");
@@ -149,14 +149,14 @@ public class Limon extends javax.swing.JFrame {
     private void cantonSiquirresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cantonSiquirresActionPerformed
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Siquirres");
-        ui.getLblCodigo().setText("703");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblCodigo().setText("702");
+        ui.getLblPoblacion().setText("62.086" + " personas");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("681.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("84.1" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("860.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/703.jpg");
@@ -168,13 +168,13 @@ public class Limon extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Matina");
         ui.getLblCodigo().setText("705");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblPoblacion().setText("49.373" + " personas");
+        ui.getLblAlfabetizacion().setText("96.7" + "%");
+        ui.getLblConsumoElectrico().setText("498.0" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("95.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("64.2" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("576.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/705.jpg");
@@ -186,13 +186,13 @@ public class Limon extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Limon");
         ui.getLblCodigo().setText("701");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblPoblacion().setText("97.661" + " personas");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("573.3" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("98.9" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("1765,8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/701.jpg");
@@ -204,13 +204,13 @@ public class Limon extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Talamanca");
         ui.getLblCodigo().setText("704");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
+        ui.getLblPoblacion().setText("38.216" + " personas");
+        ui.getLblAlfabetizacion().setText("92.5" + "%");
+        ui.getLblConsumoElectrico().setText("428.6" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("97.6" + "%");
+        ui.getLblMatriculaSecundaria().setText("32.7" + "%");
         ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblTerritorio().setText("2809.9" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/704.jpg");
