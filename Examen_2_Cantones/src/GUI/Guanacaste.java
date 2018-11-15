@@ -187,8 +187,8 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("746,0" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1436,5" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("1436.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/501.jpg");
@@ -201,12 +201,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Carrillo");
         ui.getLblCodigo().setText("505");
         ui.getLblPoblacion().setText("40.558" + " personas");
-        ui.getLblAlfabetizacion().setText("97,7" + "%");
-        ui.getLblConsumoElectrico().setText("718,6" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("96,8" + "%");
-        ui.getLblMatriculaSecundaria().setText("95,4" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("577,5" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("97.7" + "%");
+        ui.getLblConsumoElectrico().setText("718.6" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("96.8" + "%");
+        ui.getLblMatriculaSecundaria().setText("95.4" + "%");
+        ui.getLblMatriculaSuperior().setText("95.8" + "%");
+        ui.getLblTerritorio().setText("577.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/505.jpg");
@@ -219,11 +219,11 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Bagaces");
         ui.getLblCodigo().setText("504");
         ui.getLblPoblacion().setText("21.936" + " personas");
-        ui.getLblAlfabetizacion().setText("96,1" + "%");
-        ui.getLblConsumoElectrico().setText("647,2" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("91,6" + "%");
-        ui.getLblMatriculaSecundaria().setText("94," + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblAlfabetizacion().setText("96.1" + "%");
+        ui.getLblConsumoElectrico().setText("647.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("91.6" + "%");
+        ui.getLblMatriculaSecundaria().setText("94.6" + "%");
+        ui.getLblMatriculaSuperior().setText("93.8" + "%");
         ui.getLblTerritorio().setText("1273,5" + " km cuadrados");
         ui.setVisible(true);
         
@@ -237,12 +237,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Cañas");
         ui.getLblCodigo().setText("506");
         ui.getLblPoblacion().setText("30.415" + " personas");
-        ui.getLblAlfabetizacion().setText("96,5" + "%");
-        ui.getLblConsumoElectrico().setText("666,6" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("90,9" + "%");
-        ui.getLblMatriculaSecundaria().setText("92,9" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("682,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("96.5" + "%");
+        ui.getLblConsumoElectrico().setText("666.6" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("90.9" + "%");
+        ui.getLblMatriculaSecundaria().setText("92.9" + "%");
+        ui.getLblMatriculaSuperior().setText("92.4" + "%");
+        ui.getLblTerritorio().setText("682.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/506.jpg");
@@ -255,12 +255,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Tilaran");
         ui.getLblCodigo().setText("508");
         ui.getLblPoblacion().setText("20.883" + " personas");
-        ui.getLblAlfabetizacion().setText("96,4" + "%");
-        ui.getLblConsumoElectrico().setText("727,3" + " kWh");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("727.3" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("638,4" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("638.4" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/508.jpg");
@@ -273,12 +273,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Santa Cruz");
         ui.getLblCodigo().setText("503");
         ui.getLblPoblacion().setText("61.706" + " personas");
-        ui.getLblAlfabetizacion().setText("98,2" + "%");
-        ui.getLblConsumoElectrico().setText("734,9" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("85,4" + "%");
+        ui.getLblAlfabetizacion().setText("98.2" + "%");
+        ui.getLblConsumoElectrico().setText("734.9" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("85.4" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1312,3" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("96.3" + "%");
+        ui.getLblTerritorio().setText("1312.3" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/503.jpg");
@@ -291,12 +291,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Nicoya");
         ui.getLblCodigo().setText("502");
         ui.getLblPoblacion().setText("53.212" + " personas");
-        ui.getLblAlfabetizacion().setText("97,2" + "%");
-        ui.getLblConsumoElectrico().setText("712,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("97.2" + "%");
+        ui.getLblConsumoElectrico().setText("712.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1333,7" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("1333.7" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/502.jpg");
@@ -309,12 +309,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Abangares");
         ui.getLblCodigo().setText("507");
         ui.getLblPoblacion().setText("19.081" + " personas");
-        ui.getLblAlfabetizacion().setText("95,8" + "%");
-        ui.getLblConsumoElectrico().setText("708,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("95.8" + "%");
+        ui.getLblConsumoElectrico().setText("708.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
-        ui.getLblMatriculaSecundaria().setText("86,9" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("675,8" + " km cuadrados");
+        ui.getLblMatriculaSecundaria().setText("86.9" + "%");
+        ui.getLblMatriculaSuperior().setText("90.2" + "%");
+        ui.getLblTerritorio().setText("675.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/507.jpg");
@@ -327,12 +327,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Hojancha");
         ui.getLblCodigo().setText("511");
         ui.getLblPoblacion().setText("7.685" + " personas");
-        ui.getLblAlfabetizacion().setText("96,4" + "%");
-        ui.getLblConsumoElectrico().setText("725,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("725.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("261,4" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("261.4" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/511.jpg");
@@ -345,12 +345,12 @@ public class Guanacaste extends javax.swing.JFrame {
         ui.getlblNombre().setText("Nandayure");
         ui.getLblCodigo().setText("509");
         ui.getLblPoblacion().setText("11.525" + " personas");
-        ui.getLblAlfabetizacion().setText("96,4" + "%");
-        ui.getLblConsumoElectrico().setText("563,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("563.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("565,6" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("565.6" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/509.jpg");

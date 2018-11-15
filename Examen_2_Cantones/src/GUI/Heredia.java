@@ -151,12 +151,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Sarapiqui");
         ui.getLblCodigo().setText("410");
         ui.getLblPoblacion().setText("70.299" + " personas");
-        ui.getLblAlfabetizacion().setText("93,5" + "%");
-        ui.getLblConsumoElectrico().setText("492,0" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("90,9" + "%");
-        ui.getLblMatriculaSecundaria().setText("78,0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("2140,5" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("93.5" + "%");
+        ui.getLblConsumoElectrico().setText("492.0" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("90.9" + "%");
+        ui.getLblMatriculaSecundaria().setText("78.0" + "%");
+        ui.getLblMatriculaSuperior().setText("81.2" + "%");
+        ui.getLblTerritorio().setText("2140.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/410.jpg");
@@ -169,12 +169,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Heredia");
         ui.getLblCodigo().setText("401");
         ui.getLblPoblacion().setText("133.61" + " personas");
-        ui.getLblAlfabetizacion().setText("99,0" + "%");
-        ui.getLblConsumoElectrico().setText("933,1" + " kWh");
+        ui.getLblAlfabetizacion().setText("99.0" + "%");
+        ui.getLblConsumoElectrico().setText("933.1" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText(" 282,6" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("282.6" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/401.jpg");
@@ -187,12 +187,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Barva");
         ui.getLblCodigo().setText("402");
         ui.getLblPoblacion().setText("43.110" + " personas");
-        ui.getLblAlfabetizacion().setText("99," + "%");
-        ui.getLblConsumoElectrico().setText("795,9" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("92,6" + "%");
-        ui.getLblMatriculaSecundaria().setText("99,8" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("53,8" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.1" + "%");
+        ui.getLblConsumoElectrico().setText("795.9" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("92.6" + "%");
+        ui.getLblMatriculaSecundaria().setText("99.8" + "%");
+        ui.getLblMatriculaSuperior().setText("98.0" + "%");
+        ui.getLblTerritorio().setText("53.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/402.jpg");
@@ -205,12 +205,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Santa Barbara");
         ui.getLblCodigo().setText("404");
         ui.getLblPoblacion().setText("39.231" + " personas");
-        ui.getLblAlfabetizacion().setText("98,7" + "%");
-        ui.getLblConsumoElectrico().setText("761,8" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("88,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("53,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.7" + "%");
+        ui.getLblConsumoElectrico().setText("761.8" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("88.7" + "%");
+        ui.getLblMatriculaSuperior().setText("91.5" + "%");
+        ui.getLblTerritorio().setText("53.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/404.jpg");
@@ -223,11 +223,11 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("San Rafael");
         ui.getLblCodigo().setText("405");
         ui.getLblPoblacion().setText("51.028" + " personas");
-        ui.getLblAlfabetizacion().setText("98,9" + "%");
-        ui.getLblConsumoElectrico().setText("922,5" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("93,7" + "%");
-        ui.getLblMatriculaSecundaria().setText("86,4" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblAlfabetizacion().setText("98.9" + "%");
+        ui.getLblConsumoElectrico().setText("922.5" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("93.7" + "%");
+        ui.getLblMatriculaSecundaria().setText("86.4" + "%");
+        ui.getLblMatriculaSuperior().setText("88.2" + "%");
         ui.getLblTerritorio().setText("48,4" + " km cuadrados");
         ui.setVisible(true);
         
@@ -240,13 +240,13 @@ public class Heredia extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("San Isidro");
         ui.getLblCodigo().setText("406");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblPoblacion().setText("21.712" + " personas");
+        ui.getLblAlfabetizacion().setText("99.3" + "%");
+        ui.getLblConsumoElectrico().setText("1062.5" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("100.0" + "%");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("27.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/406.jpg");
@@ -259,12 +259,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Flores");
         ui.getLblCodigo().setText("408");
         ui.getLblPoblacion().setText("21.712" + " personas");
-        ui.getLblAlfabetizacion().setText("99,3" + "%");
-        ui.getLblConsumoElectrico().setText("1062,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("99.3" + "%");
+        ui.getLblConsumoElectrico().setText("1062.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("27,0" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("89.4" + "%");
+        ui.getLblTerritorio().setText("27.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/408.jpg");
@@ -277,12 +277,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("San Pablo");
         ui.getLblCodigo().setText("409");
         ui.getLblPoblacion().setText("29.869" + " personas");
-        ui.getLblAlfabetizacion().setText("99,1" + "%");
-        ui.getLblConsumoElectrico().setText("877,1" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("84,5" + "%");
+        ui.getLblAlfabetizacion().setText("99.1" + "%");
+        ui.getLblConsumoElectrico().setText("877.1" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("84.5" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("7,5" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("96.1" + "%");
+        ui.getLblTerritorio().setText("7.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/409.jpg");
@@ -295,12 +295,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Belen");
         ui.getLblCodigo().setText("407");
         ui.getLblPoblacion().setText("25.024" + " personas");
-        ui.getLblAlfabetizacion().setText("99,3" + "%");
-        ui.getLblConsumoElectrico().setText("1127,0" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("94,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("90,2" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("12,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.3" + "%");
+        ui.getLblConsumoElectrico().setText("1127.0" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("94.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("90.2" + "%");
+        ui.getLblMatriculaSuperior().setText("91.1" + "%");
+        ui.getLblTerritorio().setText("12.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/407.jpg");
@@ -313,12 +313,12 @@ public class Heredia extends javax.swing.JFrame {
         ui.getlblNombre().setText("Santo Domingo");
         ui.getLblCodigo().setText("403");
         ui.getLblPoblacion().setText("46.161" + " personas");
-        ui.getLblAlfabetizacion().setText("99,2" + "%");
-        ui.getLblConsumoElectrico().setText("899,3" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("99,7" + "%");
-        ui.getLblMatriculaSecundaria().setText("90,6" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("24,8" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.2" + "%");
+        ui.getLblConsumoElectrico().setText("899.3" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("99.7" + "%");
+        ui.getLblMatriculaSecundaria().setText("90.6" + "%");
+        ui.getLblMatriculaSuperior().setText("92.9" + "%");
+        ui.getLblTerritorio().setText("24.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/403.jpg");

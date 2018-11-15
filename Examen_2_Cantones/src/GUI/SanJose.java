@@ -241,12 +241,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Moravia");
         ui.getLblCodigo().setText("114");
         ui.getLblPoblacion().setText("60.217" + " personas");
-        ui.getLblAlfabetizacion().setText("99,3" + "%");
-        ui.getLblConsumoElectrico().setText("911,1" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("93,5" + "%");
-        ui.getLblMatriculaSecundaria().setText("96,3" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("28,6" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.3" + "%");
+        ui.getLblConsumoElectrico().setText("911.1" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("93.5" + "%");
+        ui.getLblMatriculaSecundaria().setText("96.3" + "%");
+        ui.getLblMatriculaSuperior().setText("95.6" + "%");
+        ui.getLblTerritorio().setText("28.6" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/114.jpg");
@@ -259,12 +259,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Coronado");
         ui.getLblCodigo().setText("111");
         ui.getLblPoblacion().setText("67.139" + " personas");
-        ui.getLblAlfabetizacion().setText("99,2" + "%");
-        ui.getLblConsumoElectrico().setText("816,8" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("92,3" + "%");
-        ui.getLblMatriculaSecundaria().setText("94,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("222,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.2" + "%");
+        ui.getLblConsumoElectrico().setText("816.8" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("92.3" + "%");
+        ui.getLblMatriculaSecundaria().setText("94.7" + "%");
+        ui.getLblMatriculaSuperior().setText("94.1" + "%");
+        ui.getLblTerritorio().setText("222.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/111.jpg");
@@ -277,12 +277,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Tibas");
         ui.getLblCodigo().setText("113");
         ui.getLblPoblacion().setText("80.743" + " personas");
-        ui.getLblAlfabetizacion().setText("99,1" + "%");
-        ui.getLblConsumoElectrico().setText("668,2" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("82,9" + "%");
-        ui.getLblMatriculaSecundaria().setText("66,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText(" 8,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.1" + "%");
+        ui.getLblConsumoElectrico().setText("668.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("82.9" + "%");
+        ui.getLblMatriculaSecundaria().setText("66.7" + "%");
+        ui.getLblMatriculaSuperior().setText("70.8" + "%");
+        ui.getLblTerritorio().setText("8.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/113.jpg");
@@ -295,12 +295,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Goicoechea");
         ui.getLblCodigo().setText("108");
         ui.getLblPoblacion().setText("130.854" + " personas");
-        ui.getLblAlfabetizacion().setText("99,0" + "%");
-        ui.getLblConsumoElectrico().setText("706,9" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("91,6" + "%");
-        ui.getLblMatriculaSecundaria().setText("88,8" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("32,0" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.0" + "%");
+        ui.getLblConsumoElectrico().setText("706.9" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("91.6" + "%");
+        ui.getLblMatriculaSecundaria().setText("88.8" + "%");
+        ui.getLblMatriculaSuperior().setText("89.5" + "%");
+        ui.getLblTerritorio().setText("32.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/108.jpg");
@@ -313,12 +313,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("San Jose");
         ui.getLblCodigo().setText("101");
         ui.getLblPoblacion().setText("331.019" + " personas");
-        ui.getLblAlfabetizacion().setText("98,6" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("81,0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("45,0" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.6" + "%");
+        ui.getLblConsumoElectrico().setText("730,6" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("81.0" + "%");
+        ui.getLblMatriculaSuperior().setText("85.8" + "%");
+        ui.getLblTerritorio().setText("45.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/101.jpg");
@@ -331,12 +331,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Montes de Oca");
         ui.getLblCodigo().setText("115");
         ui.getLblPoblacion().setText("61.03" + " personas");
-        ui.getLblAlfabetizacion().setText("99,6" + "%");
-        ui.getLblConsumoElectrico().setText("928,7" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("72,9" + "%");
-        ui.getLblMatriculaSecundaria().setText("63,5" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("15,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.6" + "%");
+        ui.getLblConsumoElectrico().setText("928.7" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("72.9" + "%");
+        ui.getLblMatriculaSecundaria().setText("63.5" + "%");
+        ui.getLblMatriculaSuperior().setText("65.9" + "%");
+        ui.getLblTerritorio().setText("15.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/115.jpg");
@@ -349,12 +349,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Curridabat");
         ui.getLblCodigo().setText("118");
         ui.getLblPoblacion().setText("75.582" + " personas");
-        ui.getLblAlfabetizacion().setText("98,9" + "%");
-        ui.getLblConsumoElectrico().setText("928,2" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("78,7" + "%");
-        ui.getLblMatriculaSecundaria().setText("73,5" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("16,0" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.9" + "%");
+        ui.getLblConsumoElectrico().setText("928.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("78.7" + "%");
+        ui.getLblMatriculaSecundaria().setText("73.5" + "%");
+        ui.getLblMatriculaSuperior().setText("74.8" + "%");
+        ui.getLblTerritorio().setText("16.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/118.jpg");
@@ -367,12 +367,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Santa Ana");
         ui.getLblCodigo().setText("109");
         ui.getLblPoblacion().setText("55.733" + " personas");
-        ui.getLblAlfabetizacion().setText("98,9" + "%");
-        ui.getLblConsumoElectrico().setText("1366,2" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("91,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("94,3" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("61,4" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.9" + "%");
+        ui.getLblConsumoElectrico().setText("1366.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("91.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("94.3" + "%");
+        ui.getLblMatriculaSuperior().setText("93.4" + "%");
+        ui.getLblTerritorio().setText("61.4" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/109.jpg");
@@ -385,12 +385,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Escazu");
         ui.getLblCodigo().setText("102");
         ui.getLblPoblacion().setText("65.92" + " personas");
-        ui.getLblAlfabetizacion().setText("99,3" + "%");
-        ui.getLblConsumoElectrico().setText("1452,3" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("91,2" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("34,0" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("99.3" + "%");
+        ui.getLblConsumoElectrico().setText("1452.3" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("91.2" + "%");
+        ui.getLblMatriculaSuperior().setText("93.4" + "%");
+        ui.getLblTerritorio().setText("34.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/102.jpg");
@@ -403,12 +403,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Alajuelita");
         ui.getLblCodigo().setText("110");
         ui.getLblPoblacion().setText("86.397" + " personas");
-        ui.getLblAlfabetizacion().setText("98,5" + "%");
-        ui.getLblConsumoElectrico().setText("539," + " kWh");
-        ui.getLblMatriculaPrimaria().setText("94,6" + "%");
-        ui.getLblMatriculaSecundaria().setText("72," + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("21,2" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.5" + "%");
+        ui.getLblConsumoElectrico().setText("539.3" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("94.6" + "%");
+        ui.getLblMatriculaSecundaria().setText("72.3" + "%");
+        ui.getLblMatriculaSuperior().setText("77.9" + "%");
+        ui.getLblTerritorio().setText("21.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/110.jpg");
@@ -421,12 +421,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Desamparados");
         ui.getLblCodigo().setText("103");
         ui.getLblPoblacion().setText("230.770" + " personas");
-        ui.getLblAlfabetizacion().setText("98,7" + "%");
-        ui.getLblConsumoElectrico().setText("651,8" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("98,4" + "%");
-        ui.getLblMatriculaSecundaria().setText("98,6" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("118,0" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.7" + "%");
+        ui.getLblConsumoElectrico().setText("651.8" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("98.4" + "%");
+        ui.getLblMatriculaSecundaria().setText("98.6" + "%");
+        ui.getLblMatriculaSuperior().setText("98.6" + "%");
+        ui.getLblTerritorio().setText("118.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/103.jpg");
@@ -439,12 +439,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Mora");
         ui.getLblCodigo().setText("107");
         ui.getLblPoblacion().setText("28.700" + " personas");
-        ui.getLblAlfabetizacion().setText("833,3" + "%");
-        ui.getLblConsumoElectrico().setText("98,8" + " kWh");
+        ui.getLblAlfabetizacion().setText("833.3" + "%");
+        ui.getLblConsumoElectrico().setText("98.8" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("162,0" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("162.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/107.jpg");
@@ -457,12 +457,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Turrubares");
         ui.getLblCodigo().setText("116");
         ui.getLblPoblacion().setText("6.355" + " personas");
-        ui.getLblAlfabetizacion().setText("95,4" + "%");
-        ui.getLblConsumoElectrico().setText("603," + " kWh");
+        ui.getLblAlfabetizacion().setText("95.4" + "%");
+        ui.getLblConsumoElectrico().setText("603." + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("415,3" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("415.3" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/116.jpg");
@@ -475,12 +475,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Puriscal");
         ui.getLblCodigo().setText("104");
         ui.getLblPoblacion().setText("35.841" + " personas");
-        ui.getLblAlfabetizacion().setText("97,2" + "%");
-        ui.getLblConsumoElectrico().setText("597,4" + " kWh");
+        ui.getLblAlfabetizacion().setText("97.2" + "%");
+        ui.getLblConsumoElectrico().setText("597.4" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("554,0" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("554.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/104.jpg");
@@ -493,12 +493,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Acosta");
         ui.getLblCodigo().setText("112");
         ui.getLblPoblacion().setText("20.962" + " personas");
-        ui.getLblAlfabetizacion().setText("96,5" + "%");
-        ui.getLblConsumoElectrico().setText("564,5" + " kWh");
+        ui.getLblAlfabetizacion().setText("96.5" + "%");
+        ui.getLblConsumoElectrico().setText("564.5" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("342,2" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("342.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/112.jpg");
@@ -511,13 +511,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Aserri");
         ui.getLblCodigo().setText("106");
         ui.getLblPoblacion().setText("60.082" + " personas");
-        ui.getLblAlfabetizacion().setText("98,7" + "%");
-        ui.getLblConsumoElectrico().setText("620," + " kWh");
+        ui.getLblAlfabetizacion().setText("98.7" + "%");
+        ui.getLblConsumoElectrico().setText("620." + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("92.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("167,0\n" +
-"" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("94,0" + "%");
+        ui.getLblTerritorio().setText("167.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/106.jpg");
@@ -530,12 +529,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Leon Cortes");
         ui.getLblCodigo().setText("120");
         ui.getLblPoblacion().setText("12.910" + " personas");
-        ui.getLblAlfabetizacion().setText("97,0" + "%");
-        ui.getLblConsumoElectrico().setText("453,0" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("82,7" + "%");
-        ui.getLblMatriculaSecundaria().setText("100,0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("120,8" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("97.0" + "%");
+        ui.getLblConsumoElectrico().setText("453.0" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("82.7" + "%");
+        ui.getLblMatriculaSecundaria().setText("100.0" + "%");
+        ui.getLblMatriculaSuperior().setText("95.7" + "%");
+        ui.getLblTerritorio().setText("120.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/120.jpg");
@@ -547,13 +546,13 @@ public class SanJose extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Tarrazu");
         ui.getLblCodigo().setText("105");
-        ui.getLblPoblacion().setText("298,0" + " personas");
-        ui.getLblAlfabetizacion().setText("96,2" + "%");
-        ui.getLblConsumoElectrico().setText("466,7" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("86,3" + "%");
-        ui.getLblMatriculaSecundaria().setText("77,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("298,0" + " km cuadrados");
+        ui.getLblPoblacion().setText("298.0" + " personas");
+        ui.getLblAlfabetizacion().setText("96.2" + "%");
+        ui.getLblConsumoElectrico().setText("466.7" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("86.3" + "%");
+        ui.getLblMatriculaSecundaria().setText("77.7" + "%");
+        ui.getLblMatriculaSuperior().setText("79.8" + "%");
+        ui.getLblTerritorio().setText("298.0" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/105.jpg");
@@ -566,12 +565,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Dota");
         ui.getLblCodigo().setText("117");
         ui.getLblPoblacion().setText("7.60" + " personas");
-        ui.getLblAlfabetizacion().setText("97,5" + "%");
-        ui.getLblConsumoElectrico().setText("447,6" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("92,6" + "%");
+        ui.getLblAlfabetizacion().setText("97.5" + "%");
+        ui.getLblConsumoElectrico().setText("447.6" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("92.6" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("400,2" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("98.2" + "%");
+        ui.getLblTerritorio().setText("400.2" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/117.jpg");
@@ -584,12 +583,12 @@ public class SanJose extends javax.swing.JFrame {
         ui.getlblNombre().setText("Perez Zeledon");
         ui.getLblCodigo().setText("119");
         ui.getLblPoblacion().setText("141.383" + " personas");
-        ui.getLblAlfabetizacion().setText("97,0" + "%");
-        ui.getLblConsumoElectrico().setText("543,3" + " kWh");
+        ui.getLblAlfabetizacion().setText("97,.0" + "%");
+        ui.getLblConsumoElectrico().setText("543.3" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1905,5" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("1905.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/119.jpg");

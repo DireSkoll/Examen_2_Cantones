@@ -133,12 +133,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("Oreamuno");
         ui.getLblCodigo().setText("307");
         ui.getLblPoblacion().setText("47.550" + " personas");
-        ui.getLblAlfabetizacion().setText("97,9" + "%");
-        ui.getLblConsumoElectrico().setText("886,3" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("96,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("202,3" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("97.9" + "%");
+        ui.getLblConsumoElectrico().setText("886.3" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("96.7" + "%");
+        ui.getLblMatriculaSuperior().setText("97.5" + "%");
+        ui.getLblTerritorio().setText("202.3" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/307.jpg");
@@ -151,12 +151,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("La Union");
         ui.getLblCodigo().setText("303");
         ui.getLblPoblacion().setText("105.194" + " personas");
-        ui.getLblAlfabetizacion().setText("99,1" + "%");
-        ui.getLblConsumoElectrico().setText("847,4" + " kWh");
+        ui.getLblAlfabetizacion().setText("99.1" + "%");
+        ui.getLblConsumoElectrico().setText("847.4" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("44,8" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("44.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/303.jpg");
@@ -169,12 +169,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("Alvarado");
         ui.getLblCodigo().setText("306");
         ui.getLblPoblacion().setText("14.715" + " personas");
-        ui.getLblAlfabetizacion().setText("97,3" + "%");
-        ui.getLblConsumoElectrico().setText("717,8" + " kWh");
+        ui.getLblAlfabetizacion().setText("97.3" + "%");
+        ui.getLblConsumoElectrico().setText("717.8" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("81,1" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("81.1" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/306.jpg");
@@ -187,12 +187,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("Turrialba");
         ui.getLblCodigo().setText("305");
         ui.getLblPoblacion().setText("73.276" + " personas");
-        ui.getLblAlfabetizacion().setText("95,7" + "%");
-        ui.getLblConsumoElectrico().setText("649,9" + " kWh");
+        ui.getLblAlfabetizacion().setText("95.7" + "%");
+        ui.getLblConsumoElectrico().setText("649.9" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
-        ui.getLblMatriculaSecundaria().setText("93,7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1642,7" + " km cuadrados");
+        ui.getLblMatriculaSecundaria().setText("93.7" + "%");
+        ui.getLblMatriculaSuperior().setText("95.3" + "%");
+        ui.getLblTerritorio().setText("1642.7" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/305.jpg");
@@ -205,12 +205,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("El Guarco");
         ui.getLblCodigo().setText("308");
         ui.getLblPoblacion().setText("43.882" + " personas");
-        ui.getLblAlfabetizacion().setText("99,0" + "%");
-        ui.getLblConsumoElectrico().setText("853,8" + " kWh");
+        ui.getLblAlfabetizacion().setText("99.0" + "%");
+        ui.getLblConsumoElectrico().setText("853.8" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("167,7" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("167.7" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/308.jpg");
@@ -222,13 +222,13 @@ public class Cartago extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Cartago");
         ui.getLblCodigo().setText("301");
-        ui.getLblPoblacion().setText("812,3" + " personas");
-        ui.getLblAlfabetizacion().setText("98,5" + "%");
-        ui.getLblConsumoElectrico().setText("812,3" + " kWh");
+        ui.getLblPoblacion().setText("812.3" + " personas");
+        ui.getLblAlfabetizacion().setText("98.5" + "%");
+        ui.getLblConsumoElectrico().setText("812.3" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("100.0" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("287,8" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("100.0" + "%");
+        ui.getLblTerritorio().setText("287.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/301.jpg");
@@ -241,12 +241,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("Jimenez");
         ui.getLblCodigo().setText("304");
         ui.getLblPoblacion().setText("16.028" + " personas");
-        ui.getLblAlfabetizacion().setText("96,6" + "%");
-        ui.getLblConsumoElectrico().setText("561,7" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("87,3" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("286,4" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("96.6" + "%");
+        ui.getLblConsumoElectrico().setText("561.7" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("87.3" + "%");
+        ui.getLblMatriculaSuperior().setText("90.5" + "%");
+        ui.getLblTerritorio().setText("286.4" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/304.jpg");
@@ -259,12 +259,12 @@ public class Cartago extends javax.swing.JFrame {
         ui.getlblNombre().setText("Paraiso");
         ui.getLblCodigo().setText("302");
         ui.getLblPoblacion().setText("59.861" + " personas");
-        ui.getLblAlfabetizacion().setText("98,0" + "%");
-        ui.getLblConsumoElectrico().setText("765,1" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("95,2" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("411,9" + " km cuadrados");
+        ui.getLblAlfabetizacion().setText("98.0" + "%");
+        ui.getLblConsumoElectrico().setText("765.1" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("95.2" + "%");
+        ui.getLblMatriculaSuperior().setText("96.4" + "%");
+        ui.getLblTerritorio().setText("411.9" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/302.jpg");

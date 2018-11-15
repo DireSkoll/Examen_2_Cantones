@@ -115,11 +115,11 @@ public class Limon extends javax.swing.JFrame {
         ui.getlblNombre().setText("Pococi");
         ui.getLblCodigo().setText("702");
         ui.getLblPoblacion().setText("137.809" + " personas");
-        ui.getLblAlfabetizacion().setText("96,4" + "%");
-        ui.getLblConsumoElectrico().setText("545,5" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("100,0" + "%");
-        ui.getLblMatriculaSecundaria().setText("89,9" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblAlfabetizacion().setText("96.4" + "%");
+        ui.getLblConsumoElectrico().setText("545.5" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("100.0" + "%");
+        ui.getLblMatriculaSecundaria().setText("89.9" + "%");
+        ui.getLblMatriculaSuperior().setText("92.4" + "%");
         ui.getLblTerritorio().setText("2403.5" + " km cuadrados");
         ui.setVisible(true);
         
@@ -137,8 +137,8 @@ public class Limon extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("498.0" + " kWh");
         ui.getLblMatriculaPrimaria().setText("95.0" + "%");
         ui.getLblMatriculaSecundaria().setText("64.2" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("576,5" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("71.9" + "%");
+        ui.getLblTerritorio().setText("576.5" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/706.jpg");
@@ -155,7 +155,7 @@ public class Limon extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("681.2" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("84.1" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("88.1" + "%");
         ui.getLblTerritorio().setText("860.2" + " km cuadrados");
         ui.setVisible(true);
         
@@ -173,7 +173,7 @@ public class Limon extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("498.0" + " kWh");
         ui.getLblMatriculaPrimaria().setText("95.0" + "%");
         ui.getLblMatriculaSecundaria().setText("64.2" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("80.2" + "%");
         ui.getLblTerritorio().setText("576.5" + " km cuadrados");
         ui.setVisible(true);
         
@@ -191,8 +191,8 @@ public class Limon extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("573.3" + " kWh");
         ui.getLblMatriculaPrimaria().setText("100.0" + "%");
         ui.getLblMatriculaSecundaria().setText("98.9" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("1765,8" + " km cuadrados");
+        ui.getLblMatriculaSuperior().setText("99.2" + "%");
+        ui.getLblTerritorio().setText("1765.8" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/701.jpg");
@@ -209,7 +209,7 @@ public class Limon extends javax.swing.JFrame {
         ui.getLblConsumoElectrico().setText("428.6" + " kWh");
         ui.getLblMatriculaPrimaria().setText("97.6" + "%");
         ui.getLblMatriculaSecundaria().setText("32.7" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
+        ui.getLblMatriculaSuperior().setText("71.5" + "%");
         ui.getLblTerritorio().setText("2809.9" + " km cuadrados");
         ui.setVisible(true);
         
