@@ -375,13 +375,13 @@ public class Alajuela extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("Palmares");
         ui.getLblCodigo().setText("207");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblPoblacion().setText("38.014" + " personas");
+        ui.getLblAlfabetizacion().setText("98.2" + "%");
+        ui.getLblConsumoElectrico().setText("630.1" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("92.4" + "%");
+        ui.getLblMatriculaSecundaria().setText("100" + "%");
+        ui.getLblMatriculaSuperior().setText("98.1" + "%");
+        ui.getLblTerritorio().setText("38.1" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/207.jpg");

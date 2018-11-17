@@ -304,13 +304,13 @@ public class Puntarenas extends javax.swing.JFrame {
         CantonUI ui = new CantonUI();
         ui.getlblNombre().setText("CotoBrus");
         ui.getLblCodigo().setText("608");
-        ui.getLblPoblacion().setText("" + " personas");
-        ui.getLblAlfabetizacion().setText("" + "%");
-        ui.getLblConsumoElectrico().setText("" + " kWh");
-        ui.getLblMatriculaPrimaria().setText("" + "%");
-        ui.getLblMatriculaSecundaria().setText("" + "%");
-        ui.getLblMatriculaSuperior().setText("" + "%");
-        ui.getLblTerritorio().setText("" + " km cuadrados");
+        ui.getLblPoblacion().setText("43.811" + " personas");
+        ui.getLblAlfabetizacion().setText("94" + "%");
+        ui.getLblConsumoElectrico().setText("414.2" + " kWh");
+        ui.getLblMatriculaPrimaria().setText("94.3" + "%");
+        ui.getLblMatriculaSecundaria().setText("78.6" + "%");
+        ui.getLblMatriculaSuperior().setText("82.6" + "%");
+        ui.getLblTerritorio().setText("933.9" + " km cuadrados");
         ui.setVisible(true);
         
         ImageIcon imagen = new ImageIcon("src/Multimedia/Cantones/608.jpg");
